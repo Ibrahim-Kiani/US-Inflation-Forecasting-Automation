@@ -2,8 +2,6 @@
 
 A comprehensive data pipeline and machine learning system for forecasting inflation rates using economic indicators from the Federal Reserve Economic Data (FRED).
 
-![Inflation Forecasting](https://www.federalreserve.gov/econres/images/researchers-working-1_2.jpg)
-
 ## Overview
 
 This project implements an end-to-end pipeline for inflation forecasting using multiple economic indicators. The system fetches data from FRED, transforms it into a suitable format for time series analysis, trains multiple machine learning models, and outputs predictions and performance metrics for visualization in PowerBI.
@@ -148,7 +146,7 @@ In PowerBI, you can create:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/inflation-forecasting.git
+git clone https://github.com/Ibrahim-Kiani/US-Inflation-Forecasting-Automation.git
 cd inflation-forecasting
 ```
 
@@ -172,7 +170,7 @@ docker pull ibrahimkiani/inflation-forecasting:latest
 
 2. Alternatively, build the Docker image locally:
 ```bash
-git clone https://github.com/yourusername/inflation-forecasting.git
+git clone https://github.com/Ibrahim-Kiani/US-Inflation-Forecasting-Automation.git
 cd inflation-forecasting
 docker build -t inflation-forecasting .
 ```
